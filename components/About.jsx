@@ -54,7 +54,7 @@ export default function About() {
                             </li>
                         ))}
                     </ul>
-                    <h4 className="my-6 text-gray-700 font-Ovo dark:text-white/80">Tools i use</h4>
+                    <h4 className="my-6 text-gray-700 font-Ovo dark:text-white/80">Tools I use</h4>
 
                     <ul className="flex items-center gap-3 sm:gap-5">
                         {tools.map((tool) => (
