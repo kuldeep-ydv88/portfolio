@@ -1,27 +1,27 @@
 export default function Work() {
     const work = [
         {
-            name: 'Frontend project',
+            name: 'Assent MedTech',
             icon: '/assets/work-1.png',
-            description: 'Web Design',
+            description: 'Healthcare Platform',
             link: '',
         },
         {
-            name: 'Geo based app',
+            name: 'Smart Estate',
             icon: '/assets/work-2.png',
-            description: 'mobile app',
+            description: 'Real Estate Management',
             link: '',
         },
         {
-            name: 'Photography site',
+            name: 'E-Commerce Platform',
             icon: '/assets/work-3.png',
-            description: 'Web Design',
+            description: 'Multi-Tenant Web App',
             link: '',
         },
         {
-            name: 'UI/UX designing',
+            name: 'API Development',
             icon: '/assets/work-4.png',
-            description: 'UI/UX Design',
+            description: 'REST APIs & Microservices',
             link: '',
         }
     ];
@@ -29,7 +29,7 @@ export default function Work() {
         <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
             <h4 className="text-center mb-2 text-lg font-Ovo">My portfolio</h4>
             <h2 className="text-center text-5xl font-Ovo">My latest work</h2>
-            <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">Welcome to my web development portfolio! Explore a collection of projects showcasing my expertise in front-end development.</p>
+            <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">Welcome to my portfolio! Explore a collection of projects showcasing my expertise in full-stack development with Java, Spring Boot, Angular, and multi-tenant platform architecture.</p>
 
             <div className="grid grid-cols-auto my-10 gap-5 dark:text-black">
                 {work.map((work) => (

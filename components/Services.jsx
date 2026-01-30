@@ -1,35 +1,35 @@
 export default function Services() {
     const services = [
         {
-            name: 'Web design',
+            name: 'Backend Development',
             icon: '/assets/web-icon.png',
-            description: 'Web development is the process of building, programming...',
+            description: 'Building scalable backend systems with Java, Spring Boot, Hibernate, and REST APIs for enterprise applications.',
             link: '#',
         },
         {
-            name: 'Mobile app',
+            name: 'Angular Development',
             icon: '/assets/mobile-icon.png',
-            description: 'Web development is the process of building, programming...',
+            description: 'Creating modern, responsive web applications with Angular, Angular Material, and TypeScript for seamless user experiences.',
             link: '#',
         },
         {
-            name: 'UI/ UX design',
+            name: 'Full Stack Solutions',
             icon: '/assets/ui-icon.png',
-            description: 'Web development is the process of building, programming...',
+            description: 'End-to-end development of multi-tenant platforms integrating backend APIs with modern frontend frameworks.',
             link: '#',
         },
         {
-            name: 'Graphics design',
+            name: 'API Development',
             icon: '/assets/graphics-icon.png',
-            description: 'Web development is the process of building, programming...',
+            description: 'Designing and implementing RESTful APIs, microservices architecture, and real-time communication with WebSocket.',
             link: '#',
         }
     ];
     return (
         <div id="services" className="w-full px-[12%] py-10 scroll-mt-20">
-            <h4 className="text-center mb-2 text-lg font-Ovo">What i offer</h4>
+            <h4 className="text-center mb-2 text-lg font-Ovo">What I offer</h4>
             <h2 className="text-center text-5xl font-Ovo">My services</h2>
-            <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">I am a frontend developer from California, USA with 10 years of experience in multiple companies like Microsoft, Tesla and Apple.</p>
+            <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">Skilled Java Developer with Angular expertise from Vancouver, Canada, specializing in building scalable web applications using Java, Spring Boot, and Angular with experience in multi-tenant platforms.</p>
 
             <div className="grid grid-cols-auto gap-6 my-10">
                 {services.map((service) => (
