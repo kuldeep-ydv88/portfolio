@@ -18,13 +18,11 @@ export default function Header() {
       </h3>
 
       <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo leading-tight">
-        Java Full Stack Developer
+        Junior Developer & Project Coordinator
       </h1>
 
       <p className="max-w-2xl mx-auto font-Ovo text-gray-700 dark:text-gray-300">
-        I build scalable backend systems using <strong>Java, Spring Boot</strong>,
-        and <strong>Hibernate</strong>, and develop modern web applications with
-        <strong> Angular</strong>. Currently exploring <strong>React</strong>.
+        Skilled Java Developer with Angular expertise, experienced in building scalable web applications using <strong>Java, Spring Boot, and Angular</strong>. Strong in backend API development and integration with modern frontends at <strong>Great River Financial Services Inc, Vancouver, Canada</strong>.
       </p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">

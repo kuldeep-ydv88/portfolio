@@ -1,10 +1,10 @@
 export default function About() {
     const tools = [
         { name: 'vscode', icon: '/assets/vscode.png', },
-        { name: 'firebase', icon: '/assets/firebase.png', },
-        { name: 'mongodb', icon: '/assets/mongodb.png', },
-        { name: 'figma', icon: '/assets/figma.png', },
         { name: 'git', icon: '/assets/git.png', },
+        { name: 'mongodb', icon: '/assets/mongodb.png', },
+        { name: 'firebase', icon: '/assets/firebase.png', },
+        { name: 'figma', icon: '/assets/figma.png', },
     ];
 
     const data = [
@@ -12,19 +12,19 @@ export default function About() {
             name: 'Languages',
             icon1: '/assets/code-icon.png',
             icon2: '/assets/code-icon-dark.png',
-            description: 'HTML, CSS, JavaScript React Js, Next Js',
+            description: 'Java, JavaScript, TypeScript, JSP, HTML, CSS',
         },
         {
             name: 'Education',
             icon1: '/assets/edu-icon.png',
             icon2: '/assets/edu-icon-dark.png',
-            description: 'B.Tech in Computer Science',
+            description: 'B.Tech in CSE, GLA University (2019-2023)',
         },
         {
             name: 'Projects',
             icon1: '/assets/project-icon.png',
             icon2: '/assets/project-icon-dark.png',
-            description: 'Built more than 5 projects',
+            description: 'Healthcare, Real Estate & E-Commerce platforms',
         },
     ];
     return (
@@ -42,7 +42,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="flex-1">
-                    <p className="mb-10 max-w-2xl font-Ovo">I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
+                    <p className="mb-10 max-w-2xl font-Ovo">I am a skilled Full Stack Developer with expertise in Java, Spring Boot, and Angular. Currently working as a Junior Developer & Project Coordinator at Great River Financial Services Inc, Vancouver, Canada. I have experience building multi-tenant platforms including healthcare systems, real estate management, and e-commerce applications with a focus on clean code, scalable architecture, and Agile methodologies.</p>
 
                     <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
                         {data.map((data) => (
