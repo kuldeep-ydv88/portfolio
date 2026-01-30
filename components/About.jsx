@@ -1,10 +1,13 @@
 export default function About() {
     const tools = [
         { name: 'vscode', icon: '/assets/vscode.png', },
-        { name: 'git', icon: '/assets/git.png', },
+        { name: 'git', icon: '/assets/Github.png', },
         { name: 'mongodb', icon: '/assets/mongodb.png', },
         { name: 'firebase', icon: '/assets/firebase.png', },
-        { name: 'figma', icon: '/assets/figma.png', },
+        { name: 'figma', icon: '/assets/IntelliJ IDEA.png', },
+        { name: 'postman', icon: '/assets/Postman.png', },
+        { name: 'MySQL', icon: '/assets/mysql.png', },
+        {name: 'githubactions', icon: '/assets/githubactions.png', },
     ];
 
     const data = [
