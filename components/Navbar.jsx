@@ -50,11 +50,11 @@ export default function Navbar() {
                 <img src="/portfolio/assets/header-bg-color.png" alt="" className="w-full" />
             </div>
 
-            <nav ref={navRef} className="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
+            <nav ref={navRef} className="w-full fixed px-4 sm:px-5 lg:px-8 xl:px-[8%] py-3 sm:py-4 flex items-center justify-between z-50">
 
-               <a href="" className="block w-28 mr-14"></a>
+               <a href="" className="block w-20 sm:w-28 mr-8 sm:mr-14"></a>
 
-                <ul ref={navLinkRef} className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50 font-Ovo dark:border dark:border-white/30 dark:bg-transparent ">
+                <ul ref={navLinkRef} className="hidden md:flex items-center gap-4 lg:gap-6 xl:gap-8 rounded-full px-8 lg:px-12 py-2.5 lg:py-3 bg-white shadow-sm bg-opacity-50 font-Ovo text-sm lg:text-base dark:border dark:border-white/30 dark:bg-transparent ">
                     <li><a className='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#top">Home</a></li>
                     <li><a className='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#about">About me</a></li>
                     <li><a className='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#services">Services</a></li>
@@ -62,21 +62,21 @@ export default function Navbar() {
                     <li><a className='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#contact">Contact me</a></li>
                 </ul>
 
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-2 sm:gap-4">
                     <button onClick={toggleTheme}>
-                        <img src="/portfolio/assets/moon_icon.png" alt="" className="w-5 dark:hidden" />
-                        <img src="/portfolio/assets/sun_icon.png" alt="" className="w-5 hidden dark:block" />
+                        <img src="/portfolio/assets/moon_icon.png" alt="" className="w-4 sm:w-5 dark:hidden" />
+                        <img src="/portfolio/assets/sun_icon.png" alt="" className="w-4 sm:w-5 hidden dark:block" />
                     </button>
 
-                    <a href="#contact" className="hidden lg:flex items-center gap-3 px-8 py-1.5 border border-gray-300 hover:bg-slate-100/70 dark:hover:bg-darkHover rounded-full ml-4 font-Ovo dark:border-white/30">
+                    <a href="#contact" className="hidden lg:flex items-center gap-3 px-6 lg:px-8 py-1.5 border border-gray-300 hover:bg-slate-100/70 dark:hover:bg-darkHover rounded-full ml-2 lg:ml-4 font-Ovo text-sm lg:text-base dark:border-white/30">
                         Contact
                         <img src="/portfolio/assets/arrow-icon.png" alt="" className="w-3 dark:hidden" />
                         <img src="/portfolio/assets/arrow-icon-dark.png" alt="" className="w-3 hidden dark:block" />
                     </a>
 
-                    <button className="block md:hidden ml-3" onClick={openMenu}>
-                        <img src="/portfolio/assets/menu-black.png" alt="" className="w-6 dark:hidden" />
-                        <img src="/portfolio/assets/menu-white.png" alt="" className="w-6 hidden dark:block" />
+                    <button className="block md:hidden ml-2 sm:ml-3" onClick={openMenu}>
+                        <img src="/portfolio/assets/menu-black.png" alt="" className="w-5 sm:w-6 dark:hidden" />
+                        <img src="/portfolio/assets/menu-white.png" alt="" className="w-5 sm:w-6 hidden dark:block" />
                     </button>
 
                 </div>
