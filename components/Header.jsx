@@ -3,7 +3,7 @@ export default function Header() {
     <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
       
       <img
-        src="/assets/profile-img.png"
+        src="/portfolio/assets/profile-img.png"
         alt="Kuldeep Yadav profile photo"
         className="rounded-full w-32"
       />
@@ -11,7 +11,7 @@ export default function Header() {
       <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-2 font-Ovo">
         Hi, I&apos;m Kuldeep Yadav
         <img
-          src="/assets/hand-icon.png"
+          src="/portfolio/assets/hand-icon.png"
           alt="waving hand"
           className="w-6 mb-1"
         />
@@ -33,20 +33,20 @@ export default function Header() {
         >
           Contact Me
           <img
-            src="/assets/right-arrow-white.png"
+            src="/portfolio/assets/right-arrow-white.png"
             alt="arrow icon"
             className="w-4"
           />
         </a>
 
         <a
-  href="/resume/Kuldeep-Yadav-Resume.pdf"
+  href="/portfolio/resume/Kuldeep-Yadav-Resume.pdf"
   download
   className="px-10 py-2.5 rounded-full border border-gray-300 dark:border-white/25 hover:bg-slate-100/70 dark:hover:bg-white/10 flex items-center gap-2"
 >
   Download Resume
   <img
-    src="/assets/download-icon.png"
+    src="/portfolio/assets/download-icon.png"
     alt="download resume"
     className="w-4 dark:invert"
   />

@@ -1,32 +1,32 @@
 export default function About() {
     const tools = [
-        { name: 'vscode', icon: '/assets/vscode.png', },
-        { name: 'git', icon: '/assets/Github.png', },
-        { name: 'mongodb', icon: '/assets/mongodb.png', },
-        { name: 'firebase', icon: '/assets/firebase.png', },
-        { name: 'figma', icon: '/assets/IntelliJ IDEA.png', },
-        { name: 'postman', icon: '/assets/Postman.png', },
-        { name: 'MySQL', icon: '/assets/mysql.png', },
-        {name: 'githubactions', icon: '/assets/githubactions.png', },
+        { name: 'vscode', icon: '/portfolio/assets/vscode.png', },
+        { name: 'git', icon: '/portfolio/assets/Github.png', },
+        { name: 'mongodb', icon: '/portfolio/assets/mongodb.png', },
+        { name: 'firebase', icon: '/portfolio/assets/firebase.png', },
+        { name: 'figma', icon: '/portfolio/assets/IntelliJ IDEA.png', },
+        { name: 'postman', icon: '/portfolio/assets/Postman.png', },
+        { name: 'MySQL', icon: '/portfolio/assets/mysql.png', },
+        {name: 'githubactions', icon: '/portfolio/assets/githubactions.png', },
     ];
 
     const data = [
         {
             name: 'Languages',
-            icon1: '/assets/code-icon.png',
-            icon2: '/assets/code-icon-dark.png',
+            icon1: '/portfolio/assets/code-icon.png',
+            icon2: '/portfolio/assets/code-icon-dark.png',
             description: 'Java, JavaScript, TypeScript, JSP, HTML, CSS',
         },
         {
             name: 'Education',
-            icon1: '/assets/edu-icon.png',
-            icon2: '/assets/edu-icon-dark.png',
+            icon1: '/portfolio/assets/edu-icon.png',
+            icon2: '/portfolio/assets/edu-icon-dark.png',
             description: 'B.Tech in CSE, GLA University (2019-2023)',
         },
         {
             name: 'Projects',
-            icon1: '/assets/project-icon.png',
-            icon2: '/assets/project-icon-dark.png',
+            icon1: '/portfolio/assets/project-icon.png',
+            icon2: '/portfolio/assets/project-icon-dark.png',
             description: 'Healthcare, Real Estate & E-Commerce platforms',
         },
     ];
@@ -37,11 +37,11 @@ export default function About() {
 
             <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
                 <div className="max-w-max mx-auto relative">
-                    <img src='/assets/7040859.jpg' alt="" className="w-64 sm:w-80 rounded-3xl max-w-none" />
+                    <img src='/portfolio/assets/7040859.jpg' alt="" className="w-64 sm:w-80 rounded-3xl max-w-none" />
 
                     <div className="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center">
-                        <img src="/assets/circular-text.png" alt="" className="w-full animate-spin_slow" />
-                        <img src="/assets/dev-icon.png" alt="" className="w-1/4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+                        <img src="/portfolio/assets/circular-text.png" alt="" className="w-full animate-spin_slow" />
+                        <img src="/portfolio/assets/dev-icon.png" alt="" className="w-1/4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
                     </div>
                 </div>
                 <div className="flex-1">
