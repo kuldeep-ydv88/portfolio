@@ -18,7 +18,7 @@ export default function Header() {
       </h3>
 
       <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-[66px] font-Ovo leading-tight">
-        Junior Developer & Project Coordinator
+        Full Stack Developer & Project Coordinator
       </h1>
 
       <p className="max-w-2xl mx-auto font-Ovo text-sm sm:text-base text-gray-700 dark:text-gray-300 px-2">

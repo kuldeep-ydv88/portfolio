@@ -1,7 +1,7 @@
 export default function About() {
     const tools = [
         { name: 'vscode', icon: '/portfolio/assets/vscode.png', },
-        { name: 'git', icon: '/portfolio/assets/Github.png', },
+        { name: 'git', icon: '/portfolio/assets/GitHub.png', },
         { name: 'mongodb', icon: '/portfolio/assets/mongodb.png', },
         { name: 'firebase', icon: '/portfolio/assets/firebase.png', },
         { name: 'figma', icon: '/portfolio/assets/IntelliJ IDEA.png', },
@@ -45,7 +45,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="flex-1">
-                    <p className="mb-6 sm:mb-10 max-w-2xl font-Ovo text-sm sm:text-base">I am a skilled Full Stack Developer with expertise in Java, Spring Boot, and Angular. Currently working as a Junior Developer & Project Coordinator at Great River Financial Services Inc, Vancouver, Canada. I have experience building multi-tenant platforms including healthcare systems, real estate management, and e-commerce applications with a focus on clean code, scalable architecture, and Agile methodologies.</p>
+                    <p className="mb-6 sm:mb-10 max-w-2xl font-Ovo text-sm sm:text-base">I am a skilled Full Stack Developer with expertise in Java, Spring Boot, and Angular. Currently working as a Full Stack Developer & Project Coordinator at Great River Financial Services Inc, Vancouver, Canada. I have experience building multi-tenant platforms including healthcare systems, real estate management, and e-commerce applications with a focus on clean code, scalable architecture, and Agile methodologies.</p>
 
                     <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-2xl">
                         {data.map((data) => (
